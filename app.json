@@ -28,17 +28,16 @@
             "description": "Userbot Prefix to run the commands. Add your own or keep as default (!)",
             "value": "!",
             "required": false
-        },
+                },
         "SUDOS": {
             "description": "User ID of users who can use commands, split by space.",
             "value": "",
-            "required": false
+            "required": true
         }
     },
-    "formation": {
-        "worker": {
-            "quantity": 1,
-            "size": "free"
+    "buildpacks": [
+        {
+            "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
         }
-    }
+    ]
 }
