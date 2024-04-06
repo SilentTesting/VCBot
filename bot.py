@@ -19,11 +19,11 @@ logging.basicConfig(
 
 logging.info("Starting...")
 try:
-    SESSION = config("SESSION")
-    API_ID = config("API_ID")
-    API_HASH = config("API_HASH")
-    SUDOS = config("SUDOS")
-    PREFIX = config("PREFIX", default="!")
+    SESSION = "BQDob3sABkfKfzPGhwzpfUKewciqj2N8rC-ro8grIPt4lQ-rjHQOtYtZ-Gpr99CcqHKJxr5skamK1NSG-7JeRU779pDS82mrv0-0kW7-CvXtDE7B8-iloOWsqZGeBS0XTarCbZVt6ie9U9ofl3c3s3yg4psEwRtT6lU7VJjZRvJc5vE2ZaxUx_cgZ7u_wocfoFCX8pd63UZH25go-r3vrjSPqm_vL9J6lAFzZz48vmu4u6hjyyGLpQvNtMEQN_jIxkqCb9JfyT9s4VXZngKpx33yMSkUK6j1ikkkwDGmcx65jre2SW4EtaEeiaO5uT3U8NhzzD60xdfBpHM9PMdZV4lV-51XwAAAAAGIU1beAA"
+    API_ID = "15232891"
+    API_HASH = "d2c47dc40d19d57482396b277f93e6c3"
+    SUDOS = "6582130398"
+    PREFIX = "!"
 except Exception as e:
     logging.warning("Environment variables are missing!")
     logging.warning(f"\n{e}")
